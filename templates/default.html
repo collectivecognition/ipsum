@@ -1,0 +1,41 @@
+{{> header}}
+		<div class="">
+			<div class="container">
+				<div id="page">
+					<form>
+						<select id="num">
+							<option value=1 selected>1</option>
+							<option value=2>2</option>
+							<option value=3>3</option>
+							<option value=4>4</option>
+							<option value=5>5</option>
+							<option value=6>6</option>
+							<option value=7>7</option>
+							<option value=8>8</option>
+							<option value=9>9</option>
+							<option value=10>10</option>
+							<option value=0>Random</option>
+						</select>
+						<select id="len">
+							<option value=50>Short</option>
+							<option value=200>Medium</option>
+							<option value=500 selected>Long</option>
+							<option value=1000>Super Long!</option>
+							<option value=0>Random</option>
+						</select>
+						<select id="type">
+							<option value=0 selected>Paragraphs without Headers</option>
+							<option value=1>Paragraphs with Headers</option>
+							<option value=2>List Items</option>
+						</select>
+						<hr>
+						<div id="ipsum"></div>
+						<hr>
+						<button class="btn btn-ipsum" disabled>Copy To Clipboard</button>
+						<button class="btn btn-ipsum" disabled>Select All</button>
+						<button id="regenerate" class="btn btn-ipsum">Regenerate</button>
+					</form>
+				</div>
+			</div>
+		</div>
+{{> footer}}

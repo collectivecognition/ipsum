@@ -1,0 +1,98 @@
+@import url(http://fonts.googleapis.com/css?family=Old+Standard+TT);
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background: #7E3067;
+	color: #333;
+	font-family: "Old Standard TT", serif;
+}
+
+.container {
+	width: 710px;
+}
+
+.center {
+	text-align: center;
+}
+
+.bar.dark {
+	background: #333;
+}
+
+.bar.light {
+	background: #fff;
+}
+
+#title {
+	color: #fff;
+	font-size: 48px;
+	margin: 40px 0px;
+	text-transform: lowercase;
+	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5);
+	font-family: Lobster, sans-serif;	
+}
+
+#sidebar a {
+	text-decoration: none;
+}
+
+#page {
+	padding: 20px;
+	background: #fff;
+	-webkit-border-radius: 10px;
+	-webkit-box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.3);
+}
+
+code {
+	color: #135f90;
+}
+
+#footer {
+	padding: 10px 0px;
+	text-align: right;
+	font-size: 12px;
+	color: rgba(255, 255, 255, 0.6);
+}
+
+input:focus,
+select:focus {
+	outline: none;
+}
+
+form, select, button {
+	margin-bottom: 0px;
+	font-size: 12px;
+}
+
+hr {
+	margin: 25px 0 20px 0;
+}
+
+.btn-ipsum {
+	background-color: hsl(286, 28%, 36%) !important;
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9662a6", endColorstr="#694275");
+	background-image: -khtml-gradient(linear, left top, left bottom, from(#9662a6), to(#694275));
+	background-image: -moz-linear-gradient(top, #9662a6, #694275);
+	background-image: -ms-linear-gradient(top, #9662a6, #694275);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #9662a6), color-stop(100%, #694275));
+	background-image: -webkit-linear-gradient(top, #9662a6, #694275);
+	background-image: -o-linear-gradient(top, #9662a6, #694275);
+	background-image: linear-gradient(#9662a6, #694275);
+	border-color: #694275 #694275 hsl(286, 28%, 32%);
+	color: #fff !important;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.26);
+	-webkit-font-smoothing: antialiased;
+	font-size: 12px;
+	text-shadow: -1px -1px 0px black;
+	line-height: 15px;
+	padding: 5px 10px;
+}
+
+#ipsum {
+	color: #222;
+	font-size: 16px;
+	line-height: 21px;
+}
